@@ -1,0 +1,110 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Models.dll": {}
+        }
+      },
+      "Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Services.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Models/1.0.0": {
+      "type": "project",
+      "path": "../Models/Models.csproj",
+      "msbuildProject": "../Models/Models.csproj"
+    },
+    "Services/1.0.0": {
+      "type": "project",
+      "path": "../Services/Services.csproj",
+      "msbuildProject": "../Services/Services.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "Models >= 1.0.0",
+      "Services >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\WelCome To BVCN02\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\WelCome To BVCN02\\Desktop\\Project-VTC-I\\View\\View.csproj",
+      "projectName": "View",
+      "projectPath": "C:\\Users\\WelCome To BVCN02\\Desktop\\Project-VTC-I\\View\\View.csproj",
+      "packagesPath": "C:\\Users\\WelCome To BVCN02\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\WelCome To BVCN02\\Desktop\\Project-VTC-I\\View\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\WelCome To BVCN02\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "C:\\Users\\WelCome To BVCN02\\Desktop\\Project-VTC-I\\Models\\Models.csproj": {
+              "projectPath": "C:\\Users\\WelCome To BVCN02\\Desktop\\Project-VTC-I\\Models\\Models.csproj"
+            },
+            "C:\\Users\\WelCome To BVCN02\\Desktop\\Project-VTC-I\\Services\\Services.csproj": {
+              "projectPath": "C:\\Users\\WelCome To BVCN02\\Desktop\\Project-VTC-I\\Services\\Services.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
