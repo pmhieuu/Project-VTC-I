@@ -45,7 +45,7 @@ namespace Services
 }       
 public void Create_Information(string username,string fullname, string phone,string email,string address)
         {
-            MySqlCommand command = new MySqlCommand($"insert into Customer(FK_Customer_Account,fullname,phone,email,address)value('{username}','{fullname}','{phone}','{email}','{address}');", connection); 
+            MySqlCommand command = new MySqlCommand($"insert into Customer(Customer_username,fullname,phone,email,address)value('{username}','{fullname}','{phone}','{email}','{address}');", connection); 
            using (MySqlDataReader reader = command.ExecuteReader())
         {
         reader.Close();
@@ -99,7 +99,7 @@ public void Create_Information(string username,string fullname, string phone,str
         }
         public void Sign_In(string username,string password){
                 Console.Clear();
-            foreach(Account item in list){
+                foreach(Account item in list){
                 check_Match=false;
                 if(String.Compare(item.Username, username,true) == 0 && String.Compare(item.Password, password,false) == 0){
                 Console.ForegroundColor=ConsoleColor.Cyan;
