@@ -82,7 +82,11 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\WelCome To BVCN02\\Desktop\\Project-VTC-I\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\WelCome To BVCN02\\Desktop\\Project-VTC-I\\Models\\Models.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -94,6 +98,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.32.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -156,6 +166,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.32.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
