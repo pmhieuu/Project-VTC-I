@@ -1526,34 +1526,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\WelCome To BVCN02\\.nuget\\packages\\": {}
+    "/Users/phamminhhieu/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\WelCome To BVCN02\\Desktop\\Project-VTC-I\\Services\\Services.csproj",
+      "projectUniqueName": "/Users/phamminhhieu/Desktop/Project-VTC-I/Services/Services.csproj",
       "projectName": "Services",
-      "projectPath": "C:\\Users\\WelCome To BVCN02\\Desktop\\Project-VTC-I\\Services\\Services.csproj",
-      "packagesPath": "C:\\Users\\WelCome To BVCN02\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\WelCome To BVCN02\\Desktop\\Project-VTC-I\\Services\\obj\\",
+      "projectPath": "/Users/phamminhhieu/Desktop/Project-VTC-I/Services/Services.csproj",
+      "packagesPath": "/Users/phamminhhieu/.nuget/packages/",
+      "outputPath": "/Users/phamminhhieu/Desktop/Project-VTC-I/Services/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\WelCome To BVCN02\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/phamminhhieu/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\WelCome To BVCN02\\Desktop\\Project-VTC-I\\Models\\Models.csproj": {
-              "projectPath": "C:\\Users\\WelCome To BVCN02\\Desktop\\Project-VTC-I\\Models\\Models.csproj"
+            "/Users/phamminhhieu/Desktop/Project-VTC-I/Models/Models.csproj": {
+              "projectPath": "/Users/phamminhhieu/Desktop/Project-VTC-I/Models/Models.csproj"
             }
           }
         }
@@ -1589,7 +1587,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
       }
     }
   }
