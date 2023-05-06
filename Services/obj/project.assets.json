@@ -1531,11 +1531,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\WelCome To BVCN02\\Desktop\\Project-VTC-I\\Project-VTC-I\\Services\\Services.csproj",
+      "projectUniqueName": "C:\\Users\\WelCome To BVCN02\\Desktop\\Project\\Project-VTC-I_CL\\Services\\Services.csproj",
       "projectName": "Services",
-      "projectPath": "C:\\Users\\WelCome To BVCN02\\Desktop\\Project-VTC-I\\Project-VTC-I\\Services\\Services.csproj",
+      "projectPath": "C:\\Users\\WelCome To BVCN02\\Desktop\\Project\\Project-VTC-I_CL\\Services\\Services.csproj",
       "packagesPath": "C:\\Users\\WelCome To BVCN02\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\WelCome To BVCN02\\Desktop\\Project-VTC-I\\Project-VTC-I\\Services\\obj\\",
+      "outputPath": "C:\\Users\\WelCome To BVCN02\\Desktop\\Project\\Project-VTC-I_CL\\Services\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\WelCome To BVCN02\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1550,8 +1550,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\WelCome To BVCN02\\Desktop\\Project-VTC-I\\Project-VTC-I\\Models\\Models.csproj": {
-              "projectPath": "C:\\Users\\WelCome To BVCN02\\Desktop\\Project-VTC-I\\Project-VTC-I\\Models\\Models.csproj"
+            "C:\\Users\\WelCome To BVCN02\\Desktop\\Project\\Project-VTC-I_CL\\Models\\Models.csproj": {
+              "projectPath": "C:\\Users\\WelCome To BVCN02\\Desktop\\Project\\Project-VTC-I_CL\\Models\\Models.csproj"
             }
           }
         }

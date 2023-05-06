@@ -42,13 +42,18 @@ namespace Services
         }connection.Close();
 }       
 public void Create_Information(string username,string fullname, string phone,string email,string address)
-        {   connection.Open();
+{      
+       
+             connection.Open();
             MySqlCommand command = new MySqlCommand($"insert into Customer(Customer_username,fullname,phone,email,address)value('{username}','{fullname}','{phone}','{email}','{address}');", connection); 
            using (MySqlDataReader reader = command.ExecuteReader())
         {
         reader.Close();
         }connection.Close();
 }
+
+
+
         public void Sign_Up(string username,string password,string fullname,string phone,string email,string address){
             Console.Clear();
             if(String.IsNullOrEmpty(username)==true||String.IsNullOrEmpty(password)==true || 
@@ -70,7 +75,7 @@ public void Create_Information(string username,string fullname, string phone,str
                 Check_Valid=true;
             }
              else if(phone.Length >10){
-                Console.WriteLine("service only support in Vietnam area!");
+                Console.WriteLine("Service only support in Vietnam area!");
                  Check_Valid=true;
             }
             else {
@@ -87,8 +92,9 @@ public void Create_Information(string username,string fullname, string phone,str
                     } 
                 }  
                  if(check_Match==false){
-                    Create_Information(username,fullname,phone,email,address);
-                    Create_Account(username,password);
+                   
+                     Create_Information(username,fullname,phone,email,address);
+                     Create_Account(username,password);
                     Console.ForegroundColor=ConsoleColor.DarkBlue;
                     Console.WriteLine("Successful account registration");
                     Console.WriteLine("Login to explore our products.");
@@ -112,7 +118,11 @@ public void Create_Information(string username,string fullname, string phone,str
                 this.checkrole=item.Role;
                 this.us=item.Username;
                 Console.WriteLine($"Hello {username}!");
-                Console.WriteLine("There are many products for you to choose from <3");
+                if(item.Role==0)
+                {Console.WriteLine("There are many products for you to choose from <3");}
+                else if(item.Role==1){
+                    Console.WriteLine("There are hot products, please post them for sale now <3");
+                }
                 Console.ForegroundColor=ConsoleColor.White;
                 Console.WriteLine(readKey);
                 Console.ReadKey();

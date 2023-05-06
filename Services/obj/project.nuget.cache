@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2R0swYrDbuECHEwHFtBd7UjCBntrphSixICRrm7Mf5Ski/MY8JTgkMJEX1J2Otz6uOUyxdL0eqfdo7rd5FD45Q==",
+  "dgSpecHash": "mwkg84wMx/lyL+GpvJeAhAoYWDWwmBw+u6NYp7ohM8/9fD5qHZGHjJmOGvheMBf7SyNoqk7NSYm+EiriTbyjZg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\WelCome To BVCN02\\Desktop\\Project-VTC-I\\Project-VTC-I\\Services\\Services.csproj",
+  "projectFilePath": "C:\\Users\\WelCome To BVCN02\\Desktop\\Project\\Project-VTC-I_CL\\Services\\Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\WelCome To BVCN02\\.nuget\\packages\\google.protobuf\\3.21.9\\google.protobuf.3.21.9.nupkg.sha512",
     "C:\\Users\\WelCome To BVCN02\\.nuget\\packages\\k4os.compression.lz4\\1.2.6\\k4os.compression.lz4.1.2.6.nupkg.sha512",

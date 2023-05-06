@@ -34,9 +34,12 @@ using Models;
         public void getInformation(string name){
                     list_staff.Clear();
                     Select(name);
+                   
                     foreach (Staff item in list_staff)
-                    {
-                            Console.WriteLine(item.ID+"\t"+item.Fullname+"\t"+item.Username+"\t"+item.Phone+"\t"+item.Email);
+                    {       
+                         Console.WriteLine("================================================");
+                            Console.WriteLine("ID: "+item.ID+"\nFullname: "+item.Fullname+"\nUsername: "+item.Username+"\nPhone: "+item.Phone+"\nEmail: "+item.Email+"\n");
+                        Console.WriteLine("================================================");
                     }
                     Console.WriteLine("Press any key to continue");
                     Console.ReadKey();
@@ -58,7 +61,8 @@ using Models;
                     getInformation(name);
                     
             }
-            
+            Console.ReadKey();
+            Console.Clear();
         }
         public void editEmail(string name){
             Console.WriteLine("Enter new email:");
@@ -77,6 +81,7 @@ using Models;
                     getInformation(name);
                     
             }
-            
+            Console.ReadKey();
+            Console.Clear();
         }
     }

@@ -12,9 +12,8 @@ namespace Models
         public int ID_Staff { get; set; }
         public string Customer_Name { get; set; }
         public string Customer_Phone { get; set; }
-        public string Customer_Email { get; set; }
         public string Address { get; set; }
-        public DateTime Date { get; set; }
+        public string Date { get; set; }
         public int Status { get; set; }
         
     }
